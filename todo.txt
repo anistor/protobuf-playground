@@ -1,0 +1,31 @@
+* return domain classes vs interfaces. maybe we can use generics?
+* size of object is needed in advance
+* fields can be removed
+* field order is random
+
+field extractor, registry
+
+
+// readrestoffield, writerestof fireled. validare ca s-or scris fieldurile required, citire de list/array , citire de map
+
+// vers 3 cu separate interface pt field setters + getters, nu impl. in dom entities
+
+
+6.0.0.final end of September
+
+6.0.alpha 14 August
+
+
+** schema evolution sample
+** integrate with hotrod, full with our domain model sample. lookup via KV
+
+
+* provide full support for google generated classes
+
+* introduce an exception or use the ones thrown by protobuf
+
+   - UninitializedMessageException extends RuntimeException
+   - InvalidProtocolBufferException extends IOException
+
+
+   - implement support for default values !!
